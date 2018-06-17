@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_user"-->
+            <!--android:icon="@drawable/ic_account_circle_black"-->
+            <!--android:title="用户名"-->
+            <!--/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_location"-->
+            <!--android:icon="@drawable/ic_my_location_white"-->
+            <!--android:title="位置"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_settings"-->
+            <!--android:icon="@drawable/ic_settings_white"-->
+            <!--android:title="设置" />-->
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@drawable/ic_settings_white"
+            android:title="切换账号" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black"
+            android:title="退出应用" />
+    </group>
+
+</menu>

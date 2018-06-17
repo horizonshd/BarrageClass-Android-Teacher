@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/create_course"
+        android:title="新建课堂"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/question_library"
+        android:title="题库"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/paper"
+        android:title="试卷库"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/settings"-->
+        <!--android:title="设置"-->
+        <!--app:showAsAction="never"/>-->
+</menu>
